@@ -1,4 +1,10 @@
 Omrails::Application.routes.draw do
+  devise_for :users
+
+  # devise_for :installs
+
+  # devise_for :users
+
   get 'about' => 'pages#about'
   get 'hiashi' => 'pages#hiashi'
   
