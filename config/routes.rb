@@ -1,5 +1,6 @@
 Omrails::Application.routes.draw do
   get 'about' => 'pages#about'
+  get 'hiashi' => 'pages#hiashi'
   
   root :to => 'pages#home'
 
